@@ -40,14 +40,14 @@ Learning malloc & free
 - [ ] ft_substr		🟡
 - [ ] ft_strjoin	🟡
 - [ ] ft_strtrim	🟡
-- [ ] ft_split		
-- [ ] ft_itoa
-- [ ] ft_strmapi
-- [ ] ft_striteri
-- [ ] ft_putchar_fd
-- [ ] ft_putstr_fd
-- [ ] ft_putendl_fd
-- [ ] ft_putnbr_fd
+- [ ] ft_split		🟡
+- [ ] ft_itoa		🟡
+- [ ] ft_strmapi	🟡
+- [ ] ft_striteri	🟡
+- [ ] ft_putchar_fd	🟡
+- [ ] ft_putstr_fd	🟡
+- [ ] ft_putendl_fd	🟡
+- [ ] ft_putnbr_fd	🟡
 
 ## Part 3: Linked list (9)
 
@@ -60,3 +60,6 @@ Learning malloc & free
 - [ ] ft_lstclear
 - [ ] ft_lstiter
 - [ ] ft_lstmap
+
+## Part 4: test everything with francinette!
+## part 5: show it to someone! do an informal evaluation!
