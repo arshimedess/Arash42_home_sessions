@@ -6,7 +6,7 @@
 /*   By: arshimedess <arshimedess@student.42.fr>      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/09/30 13:51:21 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/13 20:51:38 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/15 17:28:17 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -56,5 +56,15 @@ void	ft_putchar_fd(char c, int fd);
 void	ft_putstr_fd(char *s, int fd);
 void	ft_putendl_fd(char *s, int fd);
 void	ft_putnbr_fd(int n, int fd);
+t_list	*ft_lstnew(void *content);
+void	ft_lstadd_front(t_list **lst, t_list *new);
+int		ft_lstsize(t_list *lst);
+t_list	*ft_lstlast(t_list *lst);
+
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}					t_list;
 
 #endif
