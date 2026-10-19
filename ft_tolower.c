@@ -6,20 +6,20 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/01 15:08:23 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/01 16:30:16 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/19 17:56:36 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_tolower(int c)
+int	ft_tolower(int c)
 {
 	if (c >= 65 && c <= 90)
 	{
 		c += 32;
-		return(c);
+		return (c);
 	}
-	return(c);
+	return (c);
 }
 /* int main(void)
 {

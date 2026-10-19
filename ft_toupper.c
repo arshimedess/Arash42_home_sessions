@@ -6,13 +6,13 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/01 14:55:54 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/01 15:07:57 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/19 17:56:48 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_toupper(int c)
+int	ft_toupper(int c)
 {
 	if (c >= 97 && c <= 122)
 	{

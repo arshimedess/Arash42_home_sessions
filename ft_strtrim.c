@@ -6,7 +6,7 @@
 /*   By: arshimedess <arshimedess@student.42.fr>      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/10 19:17:42 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/12 17:42:52 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/19 17:55:49 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,7 +21,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	if (s1 == NULL)
 		return (NULL);
 	s1_len = ft_strlen(s1);
-	i  = 0;
+	i = 0;
 	while (s1_len > i && (ft_strchr(set, s1[s1_len - 1])))
 	{
 		s1_len--;

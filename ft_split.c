@@ -6,7 +6,7 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/12 17:43:55 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/12 23:10:37 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/19 17:57:35 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -81,14 +81,14 @@ char	**ft_split(char const *s, char c)
 	}
 	return (pointers_array[j] = NULL, pointers_array);
 }
-int main(void)
-{
-	char **words = ft_split(" hello hell from earth ha ha",' ');
-	int k = 0;
-	while (words[k] != NULL)
-	{
-		printf("%s\n", words[k]);
-		k++;
-	}	
-	return(0);
-}
+// int main(void)
+// {
+// 	char **words = ft_split(" hello hell from earth ha ha",' ');
+// 	int k = 0;
+// 	while (words[k] != NULL)
+// 	{
+// 		printf("%s\n", words[k]);
+// 		k++;
+// 	}	
+// 	return(0);
+// }

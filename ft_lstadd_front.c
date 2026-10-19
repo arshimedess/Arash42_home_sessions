@@ -6,13 +6,13 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/15 15:19:26 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/15 17:05:25 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/19 11:53:24 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-void ft_lstadd_front(t_list **lst, t_list *new)
+void	ft_lstadd_front(t_list **lst, t_list *new)
 {
 	if (lst == NULL || new == NULL)
 		return ;

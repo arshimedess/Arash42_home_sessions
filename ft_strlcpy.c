@@ -6,7 +6,7 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/07 14:59:20 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/08 17:25:54 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/19 17:55:30 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 			size--;
 			i++;
 		}
-		dst[i] = '\0';	
+		dst[i] = '\0';
 	}
 	return (ft_strlen(src));
 }
@@ -35,7 +35,6 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 // 	char	sourc[] = "bring";
 // 	printf("mine: the return value is %zu and the dest is now:::
 // %s\n", ft_strlcpy(desti, sourc, 18), desti);
-	
 // 	char	desti2[] = "somehting in here";
 // 	char	sourc2[] = "bring";
 // 	printf("org : the return value is %zu and the dest is now:::

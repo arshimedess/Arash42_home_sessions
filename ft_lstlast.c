@@ -6,7 +6,7 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/15 17:16:49 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/15 17:27:25 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/19 12:32:36 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,17 +14,14 @@
 
 t_list	*ft_lstlast(t_list *lst)
 {
-	int		i;
 	t_list	*tmp;
 
 	if (lst == NULL)
 		return (NULL);
-	i = 0;
 	tmp = lst;
-	while(tmp != NULL)
+	while (tmp->next != NULL)
 	{
-		tmp = lst->next;
-		i++;
+		tmp = tmp->next;
 	}
-	return(tmp);
+	return (tmp);
 }
