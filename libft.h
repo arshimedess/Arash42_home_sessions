@@ -6,7 +6,7 @@
 /*   By: arshimedess <arshimedess@student.42.fr>      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/09/30 13:51:21 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/19 18:38:43 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/20 15:53:15 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 # include <string.h>
 # include <stdlib.h>
 # include <stdint.h>
+# include <unistd.h>
 
 typedef struct s_list
 {

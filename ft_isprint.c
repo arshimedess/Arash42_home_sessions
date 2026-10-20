@@ -6,7 +6,7 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/09/30 16:54:54 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/19 17:54:08 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/20 17:16:03 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 
 int	ft_isprint(int c)
 {
-	if (c >= 32 && c <= 127)
+	if (c >= 32 && c < 127)
 	{
 		return (1);
 	}
@@ -23,8 +23,8 @@ int	ft_isprint(int c)
 // int main(void)
 // {
 // 	{
-// 	printf("my function: %d\n", ft_isprint(124));
-// 	printf("original function: %d\n", isprint(124));
+// 	printf("my function: %d\n", ft_isprint('{'));
+// 	printf("original function: %d\n", isprint('{'));
 // 	return (0);
 // }
 // }

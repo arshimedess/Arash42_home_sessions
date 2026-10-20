@@ -6,7 +6,7 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/08 17:26:32 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/10 14:25:58 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/20 19:38:28 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,13 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	size_t		i;
 
 	if (*little == '\0')
-		return (big);
+		return ((char *)big);
 	i = 0;
 	while (big[i] != '\0' && i < len)
 	{
-		if (ft_strncmp(big + i, little, i) == 0)
+		if (ft_strncmp((char *)big + i, little, i) == 0)
 			i++;
-		return (big + i);
+		return ((char *)big + i);
 	}
 	return (NULL);
 }
